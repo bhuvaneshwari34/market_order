@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 20px;
+  }
+  .container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .order-form {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  .order-form input, .order-form select, .order-form button {
+    padding: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  .order-form button {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+  }
+  .order-form button:hover {
+    background-color: #45a049;
+  }
+  .price {
+    text-align: center;
+    font-size: 20px;
+    background-color: #e0e0e0;
+    padding: 15px;
+    margin: 20px 0;
+    border-radius: 5px;
+  }
+  .status {
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  .order-list {
+    margin-top: 30px;
+  }
+  .order-item {
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
